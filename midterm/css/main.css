@@ -1,3 +1,4 @@
+/* triggered every part of the webpage with "*" */
 * {
     box-sizing : border-box;   
 }
@@ -12,18 +13,19 @@ main {
     padding: 1%;
 }
 
-
+/* added max-width 960 to match the mockup sample and margin to auto */
 .wrapper {
     background-color: #D4E9E7;
     max-width: 960px;
     margin: auto;
 }
     
-
+/* set imgage width to 100% to fit within the main content */
 img {
     width: 100%;
 }
 
+/* set the position to relative */
 .container {
     position: relative;
 }
@@ -80,13 +82,14 @@ img#imagestarfish {
     float: left
 }
 
+
 .clearfix::after {
     content: "";
     display: block;
     clear: both;
 }
 
-
+/* changes the form settings to match with the mockup */
 .form {
     border: 1.5px solid black;
     padding: 1%;
