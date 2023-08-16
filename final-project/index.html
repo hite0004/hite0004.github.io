@@ -11,22 +11,21 @@
 <body>
     <div class="wrapper">
         <header>
-            
-            <div class="wrapper">
+            <div class="navbar">
                 <div class="image">
                 <img id="logo" src="images/logo.png" alt="logo with three yellow stars">
                 </div>
             <!-- created a nav to include all the links in the starting -->
             <nav class="links">
                 <ul>
-                    <li><a id="one" href="#">Home</a></li>
-                    <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li class="link"><a id="one" href="#">Home</a></li>
+                    <li class="link"><a href="#about-us">About Us</a></li>
+                    <li class="link"><a href="#services">Services</a></li>
+                    <li class="link"><a href="#team">Team</a></li>
+                    <li class="link"><a href="#contact">Contact</a></li>
                 </ul>
                 <!-- used form/button to include the search bar -->
-                <input type="text" placeholder="Search">
+                <input class="search" type="text" placeholder="Search">
             </nav>
             </div>
         </header>
@@ -36,7 +35,7 @@
             <section class="welcome">
                 <img src="images/main-banner.jpg" alt="office picture with three employees working">
                 <div class="wrapper">
-                    <h1>Welcome to Three star Media</h1>
+                    <h1>Welcome to Three Star Media</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntus!</p>
                     <a class="buttonone" href="#"> Connect with us</a>
                 </div>
@@ -44,13 +43,14 @@
 
             <!-- used id here instead of class to use it in the above links(at the start of the page) -->
             <section id="about-us"> 
-                <div class="wrapper">
+                <div class="clearfix">
                     <img id="aboutimg" src="images/about-us.jpg" alt="a table tennis sports room">
-                </div>
+                
                 <div class="about-us">
                     <h2>About Us</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos excepturi aut totam, facilis dicta sapiente perferendis sit a qui officia eius iure facere earum temporibus alias, laborum quo, atque quam.</p>
                     <p>Temporibus rem omnis voluptatem libero perferendis similique, reiciendis ipsum accusantium odit ad culpa doloribus et atque eum nisi repellendus optio enim exercitationem dignissimos? At dolorem illo facilis, perferendis veritatis consequatur.</p>
+                </div>
                 </div>
             </section>
 
@@ -185,6 +185,7 @@
                 </div>
 
                 <div id="location">
+                    <div class="wrapper">
                     <h3>Location</h3>
                     <div>
                         <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22433.158030386185!2d-75.7732877!3d45.345890149999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1692180423652!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -197,6 +198,8 @@
             <p>&copy;Copyright Three Star Media,2020</p>
                 <p>All images are taken from <a href="Unsplash">Unsplash</a></p>
         </footer>
+    
+    </div>
     </div>
 </body>
 </html>
